@@ -25,7 +25,7 @@ CREATE TABLE books (
 -- Create the authors table
 CREATE TABLE authors (
     author_id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(255) NOT NULL UNIQUE
 );
 
 -- Create the books_authors table
